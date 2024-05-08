@@ -1,0 +1,5 @@
+wheel
+build
+tox
+pytest
+pytest-cov
