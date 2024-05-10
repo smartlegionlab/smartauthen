@@ -95,7 +95,7 @@ compared with the stored key, and a boolean value of the key comparison is retur
 
 ### Install:
 
-- `pip3 install smartauthen`
+- `pip install smartauthen`
 
 #### Use:
 
@@ -138,7 +138,7 @@ For run tests coverage:
 
 Coverage 100% !!!
 
-![coverage img](https://github.com/smartlegionlab/smartauthen/raw/master/data/images/smartauthen.png)
+![coverage img](https://github.com/smartlegionlab/smartauth/raw/master/data/images/smartauthen.png)
 
 
 ***
