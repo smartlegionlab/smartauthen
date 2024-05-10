@@ -37,7 +37,7 @@ Author and developer: ___A.A Suvorov.___
 
 ## What's new?
 
-___smartauthen v0.2.0___
+___smartauthen v0.2.1___
 
 ***
 
