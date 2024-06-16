@@ -1,5 +1,6 @@
 wheel
-build
+setuptools
+twine
 tox
 pytest
 pytest-cov

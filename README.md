@@ -21,7 +21,7 @@ ___smartauthen___ - Smart, simple, lightweight, secure cross-platform authentica
 
 ***
 
-Author and developer: ___A.A Suvorov.___
+Author and developer: ___A.A. Suvorov.___
 
 [![smartlegiondev@gmail.com](https://img.shields.io/static/v1?label=email&message=smartlegiondev@gmail.com&color=blue)](mailto:smartlegiondev@gmail.com)
 
@@ -37,7 +37,7 @@ Author and developer: ___A.A Suvorov.___
 
 ## What's new?
 
-___smartauthen v0.2.1___
+___smartauthen v0.2.2___
 
 ***
 
@@ -162,6 +162,6 @@ Coverage 100% !!!
     --------------------------------------------------------
     Licensed under the terms of the BSD 3-Clause License
     (see LICENSE for details).
-    Copyright © 2018-2024, A.A Suvorov
+    Copyright © 2018-2024, A.A. Suvorov
     All rights reserved.
     --------------------------------------------------------
