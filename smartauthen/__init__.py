@@ -9,4 +9,4 @@
 """Smart, simple, lightweight, secure cross-platform
 authentication for any application."""
 from smartauthen.auth import SmartAuth
-__version__ = '0.2.2'
+__version__ = '0.2.3'
