@@ -151,24 +151,34 @@ print(smart_auth.check(login=login, secret=secret, key=key))  # False
 
 ***
 
-### Test:
-For run tests:
+## For the developer:
+
+
+#### For run tests:
 
 - `pip install pytest`
 - `pytest -v`
 
-For run tests coverage:
+#### For run tests coverage:
 
 - `pip install pytest-cov`
 - `pytest --cov --cov-report=html`
-
-***
 
 #### Test coverage:
 
 Coverage 100% !!!
 
 ![coverage img](https://github.com/smartlegionlab/smartauth/raw/master/data/images/smartauthen.png)
+
+#### Building and publishing a package:
+
+- `python -m build`
+
+Or outdated method:
+
+- `python setup.py sdist bdist_wheel`
+
+- `twine upload dist/*`
 
 
 ***
