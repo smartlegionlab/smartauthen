@@ -1,4 +1,4 @@
-# smartauthen <sup>v0.2.3</sup>
+# smartauthen <sup>v0.2.4</sup>
 
 ***
 
@@ -35,7 +35,7 @@ Author and developer: ___A.A. Suvorov.___
 
 ## What's new?
 
-___smartauthen v0.2.3___
+___smartauthen v0.2.4___
 
 Code and documentation improvements:
 
