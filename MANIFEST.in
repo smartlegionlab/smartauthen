@@ -6,4 +6,3 @@ include tox.ini
 include requirements.txt
 global-exclude tests/*
 global-exclude data/*
-global-exclude requirements/*

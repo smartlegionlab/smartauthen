@@ -1,6 +1,8 @@
-# smartauthen <sup>v0.2.4</sup>
+# smartauthen <sup>v1.0.0</sup>
 
-***
+Smart, simple, lightweight, secure cross-platform authentication for any application.
+
+---
 
 [![PyPI Downloads](https://static.pepy.tech/badge/smartauthen)](https://pepy.tech/projects/smartauthen)
 ![GitHub top language](https://img.shields.io/github/languages/top/smartlegionlab/smartauthen)
@@ -13,43 +15,21 @@
 [![GitHub watchers](https://img.shields.io/github/watchers/smartlegionlab/smartauthen?style=social)](https://github.com/smartlegionlab/smartauthen/)
 [![GitHub forks](https://img.shields.io/github/forks/smartlegionlab/smartauthen?style=social)](https://github.com/smartlegionlab/smartauthen/)
 
-***
+---
 
-## Short description:
+Author and developer: [___Alexander Suvorov.___](https://github.com/smartlegionlab)
 
-___smartauthen___ - Smart, simple, lightweight, secure cross-platform authentication for any application.
+---
 
-***
-
-Author and developer: ___A.A. Suvorov.___
-
-***
-
-## Supported:
+## Supported
 
 - Linux: All.
 - Windows: 7/8/10/11?.
 - Termux (Android).
 
-***
+---
 
-## What's new?
-
-___smartauthen v0.2.4___
-
-Code and documentation improvements:
-
-- Enabled the class to be used without creating an instance.
-- Added documentation to the code for better understanding.
-- Updated the documentation section in the README.
-- Simplified the process of enhancing the security of the public key.
-
-The code is now more user-friendly and secure!
-
-
-***
-
-## Description:
+## Description
 
 ___smartauthen___ - Smart, simple, lightweight, secure cross-platform authentication for any application.
 
@@ -119,15 +99,25 @@ use something else, unique, to generate the public key, such as a unique identif
 (During verification, a public key is first generated based on the received data, 
 compared with the stored key, and a boolean value of the key comparison is returned.) 
 
-***
+---
 
-## Install and Use:
+## ⚠️ Disclaimer
 
-### Install:
+**By using this software, you agree to the full disclaimer terms.**
+
+**Summary:** Software provided "AS IS" without warranty. You assume all risks.
+
+**Full legal disclaimer:** See [DISCLAIMER.md](https://github.com/smartlegionlab/smartauthen/blob/master/DISCLAIMER.md)
+
+---
+
+## Install and Use
+
+### Install
 
 - `pip install smartauthen`
 
-#### Use:
+#### Use
 
 ```python
 from smartauthen import SmartAuth
@@ -149,22 +139,22 @@ print(smart_auth.check(login=login, secret=secret, key=key))  # False
 
 ```
 
-***
+---
 
-## For the developer:
+## For the developer
 
 
-#### For run tests:
+#### For run tests
 
 - `pip install pytest`
 - `pytest -v`
 
-#### For run tests coverage:
+#### For run tests coverage
 
 - `pip install pytest-cov`
 - `pytest --cov --cov-report=html`
 
-#### Test coverage:
+#### Test coverage
 
 Coverage 100% !!!
 
@@ -181,27 +171,12 @@ Or outdated method:
 - `twine upload dist/*`
 
 
-***
+---
 
-## Disclaimer of liability:
+## License
 
-    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-    DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-    FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-    DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-    SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-    CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-    OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-    OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+**[BSD 3-Clause License](https://github.com/smartlegionlab/smartauthen/blob/master/LICENSE)**
 
-***
+Copyright (©) 2026, [Alexander Suvorov](https://github.com/smartlegionlab)
 
-## Copyright:
-    --------------------------------------------------------
-    Licensed under the terms of the BSD 3-Clause License
-    (see LICENSE for details).
-    Copyright © 2018-2024, A.A. Suvorov
-    All rights reserved.
-    --------------------------------------------------------
+---
